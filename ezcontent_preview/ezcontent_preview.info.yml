@@ -1,0 +1,8 @@
+name: EZContent Preview
+type: module
+description: Provide decoupled preview
+core_version_requirement: ^8.8 || ^9 || ^10
+configure: ezcontent.preview.config
+dependencies:
+  - access_unpublished:access_unpublished
+  - tokenuuid:tokenuuid
